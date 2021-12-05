@@ -20,14 +20,14 @@ class FullpageWrapper extends React.Component {
     return (
       <ReactFullpage
         scrollOverflow={true}
-        sectionsColor={["orange", "purple", "green", "lightblue"]}
+        sectionsColor={["purple","orange",  "green", "lightblue"]}
         onLeave={this.onLeave.bind(this)}
         afterLoad={this.afterLoad.bind(this)}
         render={({ state, fullpageApi }) => {
           return (
             <div id="fullpage-wrapper">
               <div id="section1" className="section">
-                <div className="container">
+                <div className="container text-light">
                   <h3 className="display-1 fw-bold">Hi, I'm <span className="text-success">Samuele Bertocco </span><span className="wave-emoji">👋</span></h3>
                   <h3>I will code everything</h3>
                   <img id="welcomeSrc" src={welcomeSrc} alt="welcome" />
@@ -36,24 +36,20 @@ class FullpageWrapper extends React.Component {
               <div className="section">
                 <div className="container">
                     <img id="manSrc" src={manSrc} alt="man" />
-                    <div className="row">
-                      <div className="col col-12 col-lg-6">
-                        <h3 className="display-2 text-white fw-bold">Who damn am i?</h3>
-                        <p className="h3 text-light">Sono uno sviluppatore autodidatta che ha focalizzato i propri studi sulle tecnologie che riguardano lo <span className="text-primary">sviluppo web</span> grazie all'esperienza sul campo ho potuto aggiungere molte altre competenze che non riguardano solo l'aspetto grafico.</p>
-                      </div>
-                      <div className="col col-12 col-lg-6">
-                        <h3 className="display-4 text-white fw-bold">What can i do?</h3>
-                        <p className="text-light">Lorem ipsum dolor sit amet, consectetur adip, Lorem ipsum dolor sit amet, consectetur adip, Lorem ipsum dolor sit amet, consectetur adip </p>
-                      </div>
-                    </div>
-
+                      <h3 className="display-2 fw-bold">Who damn am i?</h3>
+                      <p className="h3">Sono uno sviluppatore autodidatta che ha focalizzato i propri studi sulle tecnologie che riguardano lo <span className="text-primary">sviluppo web</span> grazie all'esperienza sul campo ho potuto aggiungere molte altre competenze che non riguardano solo l'aspetto grafico.</p>
+                      <div className="hstack gap-3 mt-5">
+                          <div><button onClick={() => fullpageApi.moveTo(3,0)} className="btn btn-primary btn-lg">Project</button></div>
+                          <div><button onClick={() => fullpageApi.moveTo(3,1)} className="btn btn-outline-primary btn-lg">Skills</button></div>
+                      </div>  
                   </div>
               </div>
               <div id="section2" className="section">
                 <div className="slide">
                   <div className="container">
-                        <h3 className="display-2 text-white fw-bold">Who damn am i?</h3>
-                        <p className="text-light">Lorem ipsum dolor sit amet, consectetur adip, Lorem ipsum dolor sit amet, consectetur adip, Lorem ipsum dolor sit amet, consectetur adip </p>
+                        <h3 className="display-2 text-white fw-bold">What can i do for you?</h3>
+                        <p className="text-light">Posso aiutarti a trovare un modo per migliorare il tuo processo di lavoro, costruedo un software su misura per le tue esigeze, co l' oiettivo di far risparimiare tempo e guadagare più soldi.</p>
+                        
                   </div>
                 </div>
                 <div className="slide">
