@@ -3,26 +3,41 @@
 //Variables
 $base-unit: 12px;
 
+.c-primary {
+  color: #FF8C00;
+}
 
 //Section1
-
 #welcomeSrc {
   position: absolute;
   top: $base-unit*6;
   right: $base-unit*6;
   max-width: $base-unit*12;
-  rotate: 12deg;
+  transform: rotate(20deg) scale(1.2);
+  transition-duration: 0.5s;
 }
 
 //Section2
+#section2 {
+  background: #83a4d4;  /* fallback for old browsers */
+
+}
 #manSrc {
   position:absolute;
   bottom: 0;
   left: $base-unit*2;
-  max-height: $base-unit*20;
+  max-height: $base-unit*12;
 }
-
-
+//Section3
+#section3 {
+  background: #C9FFBF;  /* fallback for old browsers */
+}
+#planetSrc {
+  max-width: $base-unit*12;
+  position:absolute;
+  top: $base-unit*2;
+  left: $base-unit*2;
+}
 
 //keyframe
 
@@ -58,3 +73,5 @@ $base-unit: 12px;
     transform: rotate(0deg);
   }
 }
+
+@import './CircleIcons.scss'

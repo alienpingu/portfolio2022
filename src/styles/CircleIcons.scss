@@ -1,0 +1,26 @@
+/* parent width and height */
+div.ciclegraph{
+  width:390px;
+  height:390px;
+  position: relative;
+} 
+
+/* child divs positions */
+.circle:nth-child(1){ left: 173px; top: -22px; width:24px; height: 24px; background:black;position: absolute;}
+.circle:nth-child(2){ left: 240px; top: -10px; width:24px; height: 24px; background:black;position: absolute;}
+.circle:nth-child(3){ left: 299px; top: 23px; width:24px; height: 24px; background:black;position: absolute;}
+.circle:nth-child(4){ left: 343px; top: 75px; width:24px; height: 24px; background:black;position: absolute;}
+.circle:nth-child(5){ left: 366px; top: 139px; width:24px; height: 24px; background:black;position: absolute;}
+.circle:nth-child(6){ left: 366px; top: 207px; width:24px; height: 24px; background:black;position: absolute;}
+.circle:nth-child(7){ left: 343px; top: 271px; width:24px; height: 24px; background:black;position: absolute;}
+.circle:nth-child(8){ left: 299px; top: 323px; width:24px; height: 24px; background:black;position: absolute;}
+.circle:nth-child(9){ left: 240px; top: 357px; width:24px; height: 24px; background:black;position: absolute;}
+.circle:nth-child(10){ left: 173px; top: 369px; width:24px; height: 24px; background:black;position: absolute;}
+.circle:nth-child(11){ left: 106px; top: 357px; width:24px; height: 24px; background:black;position: absolute;}
+.circle:nth-child(12){ left: 47px; top: 323px; width:24px; height: 24px; background:black;position: absolute;}
+.circle:nth-child(13){ left: 3px; top: 271px; width:24px; height: 24px; background:black;position: absolute;}
+.circle:nth-child(14){ left: -19px; top: 207px; width:24px; height: 24px; background:black;position: absolute;}
+.circle:nth-child(15){ left: -19px; top: 139px; width:24px; height: 24px; background:black;position: absolute;}
+.circle:nth-child(16){ left: 3px; top: 75px; width:24px; height: 24px; background:black;position: absolute;}
+.circle:nth-child(17){ left: 47px; top: 23px; width:24px; height: 24px; background:black;position: absolute;}
+.circle:nth-child(18){ left: 106px; top: -10px; width:24px; height: 24px; background:black;position: absolute;}
