@@ -8,6 +8,9 @@ import ParticlesBg from "particles-bg";
 import welcomeSrc from './image/welcome.svg'
 import manSrc from './image/man.svg'
 import planetSrc from './image/planet.svg'
+import catSrc from './image/cat.svg'
+
+import Particles from 'react-particles-js';
 
 import CircleIcons from './Components/CircleIcons'
 
@@ -56,6 +59,8 @@ class FullpageWrapper extends React.Component {
               </div>
               <div id="section4" className="section">
                 <div className="container">
+                      <img id="catSrc" src={catSrc} alt="cat" />
+
                     <h3 className="display-3 fw-bold">What can i do<br/> for you?</h3>
                     <p className="h3">Posso aiutarti a trovare un modo per migliorare il tuo processo di lavoro, costruedo un software su misura per le tue esigeze, co l' oiettivo di far risparimiare tempo e guadagare più soldi.</p>
                     <button onClick={() => fullpageApi.moveTo(1, 0)}>

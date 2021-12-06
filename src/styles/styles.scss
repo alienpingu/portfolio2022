@@ -28,6 +28,7 @@ $base-unit: 12px;
   left: $base-unit*2;
   max-height: $base-unit*12;
 }
+
 //Section3
 #section3 {
   background: #C9FFBF;  /* fallback for old browsers */
@@ -37,6 +38,14 @@ $base-unit: 12px;
   position:absolute;
   top: $base-unit*2;
   left: $base-unit*2;
+}
+
+//Section4
+#catSrc {
+  position:absolute;
+  bottom: 0;
+  right: $base-unit*2;
+  max-height: $base-unit*12;
 }
 
 //keyframe
