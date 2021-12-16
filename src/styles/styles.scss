@@ -1,5 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
-
+@import "./doodle/doodle.css";
 //Variables
 $base-unit: 12px;
 
@@ -15,6 +15,7 @@ $base-unit: 12px;
   max-width: $base-unit*12;
   transform: rotate(20deg) scale(1.2);
   transition-duration: 0.5s;
+  border: none;
 }
 
 //Section2
@@ -27,6 +28,8 @@ $base-unit: 12px;
   bottom: 0;
   left: $base-unit*2;
   max-height: $base-unit*12;
+  border: none;
+
 }
 
 //Section3
@@ -38,16 +41,27 @@ $base-unit: 12px;
   position:absolute;
   top: $base-unit*2;
   left: $base-unit*2;
+  border: none;
+
 }
 
 //Section4
+#section4 {
+  background: #E9C2FF;
+}
+
 #catSrc {
   position:absolute;
   bottom: 0;
   right: $base-unit*2;
   max-height: $base-unit*12;
-}
+  border: none;
 
+}
+//Section5 
+#section5 {
+  background: #9BFF8B;
+}
 //keyframe
 
 .wave-emoji {
@@ -83,4 +97,8 @@ $base-unit: 12px;
   }
 }
 
-@import './CircleIcons.scss'
+@import './CircleIcons.scss', './Service.scss';
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+body {
+  font-family: 'Short Stack', cursive;
+}
