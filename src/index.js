@@ -99,7 +99,7 @@ class FullpageWrapper extends React.Component {
                     </div>
                 </div>
               </div>
-              <div id="section5" className="section active">
+              <div id="section5" className="section">
                 <div className="container">
                     <h3 className="display-3 fw-bold pt-5">My latest works</h3>
                     <div className="slider">
