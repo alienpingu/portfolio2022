@@ -110,7 +110,7 @@ class FullpageWrapper extends React.Component {
                     </div>
                 </div>
               </div>
-              <div id="section5" className="section active">
+              <div id="section5" className="section">
                 <div className="container">
                     <h3 className="display-3 fw-bold pt-5">My latest works</h3>
                     <div className="slider">
@@ -347,6 +347,13 @@ class FullpageWrapper extends React.Component {
                       </div>
                     </div>
                 </div>
+              </div>
+              <div id="section3" className="section">
+                  <div className="container">
+                      <h1>Curioso? Scrivimi una email!</h1>
+                      <a href="mailto:samuele.bertocco@gmail.com">samuele.bertocco@gmail.com</a>
+                  </div>
+
               </div>
             </div>
           );
