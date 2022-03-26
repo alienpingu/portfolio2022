@@ -351,7 +351,7 @@ class FullpageWrapper extends React.Component {
               <div id="section3" className="section">
                   <div className="container">
                       <h1>Curioso? Scrivimi una email!</h1>
-                      <a href="mailto:samuele.bertocco@gmail.com">samuele.bertocco@gmail.com</a>
+                      <a href="mailto:brtsml@pm.me">brtsml@pm.me</a>
                   </div>
 
               </div>
