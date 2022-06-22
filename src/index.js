@@ -5,27 +5,28 @@ import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverf
 import ReactFullpage from "@fullpage/react-fullpage";
 import ParticlesBg from "particles-bg";
 
-import welcomeSrc from './image/welcome.svg'
-import manSrc from './image/man.svg'
-import planetSrc from './image/planet.svg'
-import catSrc from './image/cat.svg'
-import webfilesSrc from './image/webfiles.svg'
-import appSrc from './image/app.svg'
-import computerSrc from './image/computer.svg'
-import seoSrc from './image/seo.svg'
+import welcomeSrc from './image/welcome.svg';
+import manSrc from './image/man.svg';
+import planetSrc from './image/planet.svg';
+import catSrc from './image/cat.svg';
+import webfilesSrc from './image/webfiles.svg';
+import appSrc from './image/app.svg';
+import computerSrc from './image/computer.svg';
+import seoSrc from './image/seo.svg';
 
-import seasonSrc from './image/project/season.png'
-import e23Src from './image/project/e23.png'
-import almadentalSrc from './image/project/almadental.png'
-import privnoteSrc from './image/project/privnote.png'
-import giftifySrc from './image/project/giftify.png'
-import matailSrc from './image/project/matail.png'
-import smartcvSrc from './image/project/smartcv.png'
-import dotgameSrc from './image/project/dotgame.png'
-import zeerconiaSrc from './image/project/zeerconia.png'
-import metaGallerySrc from './image/project/meta-gallery.png'
-import portfolio23Src from './image/project/portfolio23-beta.png'
-import cyberpunkSrc from './image/project/cyberpunk.png'
+import seasonSrc from './image/project/season.png';
+import e23Src from './image/project/e23.png';
+import almadentalSrc from './image/project/almadental.png';
+import privnoteSrc from './image/project/privnote.png';
+import giftifySrc from './image/project/giftify.png';
+import matailSrc from './image/project/matail.png';
+import smartcvSrc from './image/project/smartcv.png';
+import dotgameSrc from './image/project/dotgame.png';
+import zeerconiaSrc from './image/project/zeerconia.png';
+import metaGallerySrc from './image/project/meta-gallery.png';
+import portfolio23Src from './image/project/portfolio23-beta.png';
+import cyberpunkSrc from './image/project/cyberpunk.png';
+import checkupSrc from './image/project/checkup.png';
 
 import CircleIcons from './Components/CircleIcons'
 
@@ -306,6 +307,24 @@ class FullpageWrapper extends React.Component {
                             <ul>
                               <li>ReactJS</li>
                               <li>ThreeJS</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="slide">
+                        <div className="row">
+                          <div className="col-12 col-md-8">
+                            <h1>Checkup Digitale</h1>
+                            <p>Sviluppo FrontEnd in ReactJS</p>
+                            <p>Sitoweb per digital agency orientata nel web3, servizi di branding a 360°, il sito pulito e scattante comunica il brand, il sito possiede anche un blog per ottimizzare l'indicizzazione SEO.</p>
+                          </div>
+                          <div className="col-12 col-md-4">
+                            <a href="https://checkup-reactjs.vercel.app/"  target="_blank" rel="noreferrer"><img src={checkupSrc} alt="meta-gallery" /></a>
+                          </div>
+                          <div className="col-12 col-md-6">
+                            <h4>Teconlogie utilizzate</h4>
+                            <ul>
+                              <li>ReactJS</li>
                             </ul>
                           </div>
                         </div>
